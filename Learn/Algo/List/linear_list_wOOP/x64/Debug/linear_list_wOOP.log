@@ -1,3 +1,0 @@
-﻿  linear_list_wOOP.cpp
-E:\Programs_VS_2022\Programs_2023\cpp_projects\linear_list_wOOP\linear_list_wOOP.cpp(21,19): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
-  linear_list_wOOP.vcxproj -> E:\Programs_VS_2022\Programs_2023\cpp_projects\linear_list_wOOP\x64\Debug\linear_list_wOOP.exe

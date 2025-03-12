@@ -1,1 +1,0 @@
-E:\Programs_VS_2022\Programs_2023\cpp_projects\linear_list_wOOP\x64\Debug\linear_list_wOOP.exe
