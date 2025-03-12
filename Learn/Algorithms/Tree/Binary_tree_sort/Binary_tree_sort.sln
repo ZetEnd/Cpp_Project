@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Binary_tree_sort", "Binary_tree_sort.vcxproj", "{7A5AC9BA-6080-432C-BC33-1207CFDC927E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A5AC9BA-6080-432C-BC33-1207CFDC927E}.Debug|x64.ActiveCfg = Debug|x64
+		{7A5AC9BA-6080-432C-BC33-1207CFDC927E}.Debug|x64.Build.0 = Debug|x64
+		{7A5AC9BA-6080-432C-BC33-1207CFDC927E}.Debug|x86.ActiveCfg = Debug|Win32
+		{7A5AC9BA-6080-432C-BC33-1207CFDC927E}.Debug|x86.Build.0 = Debug|Win32
+		{7A5AC9BA-6080-432C-BC33-1207CFDC927E}.Release|x64.ActiveCfg = Release|x64
+		{7A5AC9BA-6080-432C-BC33-1207CFDC927E}.Release|x64.Build.0 = Release|x64
+		{7A5AC9BA-6080-432C-BC33-1207CFDC927E}.Release|x86.ActiveCfg = Release|Win32
+		{7A5AC9BA-6080-432C-BC33-1207CFDC927E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {197BC0EA-AD0D-48B1-B252-408D5EA6D350}
+	EndGlobalSection
+EndGlobal
