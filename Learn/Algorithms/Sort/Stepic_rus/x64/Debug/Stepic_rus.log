@@ -1,0 +1,12 @@
+﻿  Stepic_rus.cpp
+E:\Git_repositories\Cpp_Project\Learn\Algorithms\Sort\Stepic_rus\Stepic_rus.cpp(29,28): warning C4244: инициализация: преобразование "_Elem" в "char", возможна потеря данных
+          with
+          [
+              _Elem=wchar_t
+          ]
+E:\Git_repositories\Cpp_Project\Learn\Algorithms\Sort\Stepic_rus\Stepic_rus.cpp(29,28): warning C4244: инициализация: преобразование "_Elem" в "const char", возможна потеря данных
+          with
+          [
+              _Elem=wchar_t
+          ]
+  Stepic_rus.vcxproj -> E:\Git_repositories\Cpp_Project\Learn\Algorithms\Sort\Stepic_rus\x64\Debug\Stepic_rus.exe

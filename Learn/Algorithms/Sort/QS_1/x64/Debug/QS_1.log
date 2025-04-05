@@ -1,0 +1,3 @@
+﻿  QS_1.cpp
+E:\Git_repositories\Cpp_Project\Learn\Algorithms\Sort\QS_1\QS_1.cpp(72,23): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  QS_1.vcxproj -> E:\Git_repositories\Cpp_Project\Learn\Algorithms\Sort\QS_1\x64\Debug\QS_1.exe
