@@ -1,75 +1,70 @@
-﻿// Binary_tree_sort.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
+﻿// ALGOSSS_LetsGooo_1.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
 
 #include <iostream>
-#define _CRT_SECURE_NO_WARNINGS
-#include <stdio.h>
-#include <stdlib.h>
-
-#define SIZE 8
 
 struct tnode {
     int field;
     struct tnode* left;
-    struct tnode* right;
+
+    struct tnode *right;
 };
 
-void treeprint(struct tnode* tree) {
-
-    if (tree != NULL) {
-        treeprint(tree->left);
-        printf("%d", tree->field);
-        treeprint(tree->right);
-    }
-}
-
-struct tnode* addnode(int x, struct tnode* tree) {
+struct tnode* addnode(int x, tnode* tree) {
 
     if (tree == NULL) {
+
         tree = new tnode;
         tree->field = x;
         tree->left = NULL;
         tree->right = NULL;
     }
-    else if (x < tree->field)
-        tree->left = addnode(x, tree->left);
-    else
-        tree->right = addnode(x, tree->right);
+    else {
+        if (x < tree->field) {
+
+            tree->left = addnode(x, tree->left);
+        }
+        else {
+            tree->right = addnode(x, tree->right);
+        }
+    }
 
     return tree;
-}
+};
 
-void freemem(struct tnode* p) {
+void freemem(tnode* tree) {
 
-    if (p != NULL) {
-        freemem(p->left);
-        freemem(p->right);
-        delete p;
+
+    if (tree != NULL) {
+        freemem(tree->left);
+        freemem(tree->right);
+
+        delete tree;
     }
 }
+void treeprint(tnode* tree) {
+
+    if (tree != NULL) {
+
+        std::cout << tree->field;
+
+        treeprint(tree->left);
+        treeprint(tree->right);
+    }
+};
+
+void treeprint1(tnode* tree) {
+
+    if (tree != NULL) {
+        treeprint1(tree->left);
+        std::cout << tree->field;
+        treeprint1(tree->right);
+
+    }
+};
+
 int main()
 {
-    struct tnode* root = 0;
-    system("chcp 1251");
-    system("cls");
-
-    int a;
-    int size;
-
-    std::cout << "wtf:";
-
-    std::cin >> size;
-    for (int i = 0; i < size; i++) {
-        printf("Введите узел %d ", i + 1);
-        scanf_s("%d", &a);
-        root = addnode(a, root);
-
-    }
-
-    treeprint(root);
-    printf("\n");
-    freemem(root);
-    system("pause");
     std::cout << "Hello World!\n";
 }
 
